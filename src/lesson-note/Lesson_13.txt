@@ -1,0 +1,16 @@
+CAPTCHA in Automation Test
+1. Try to handle: Tesseract OCR (https://www.youtube.com/watch?v=0pjzLMbtimk)
+2. Request dev: (apply for also OTP)
+	2.1: Remove captcha in automation test enviroment
+	2.2: Ask dev hard-code a captcha in test enviroment
+
+OTP in Automation Test (Multiple Authentication)
+Handle: 
+	- Emai: 
+		* Database access to get OTP 
+		* Buy email service from 3rd party
+		* Fake mail provider
+	- SMS:
+		* Database access to get OTP
+		* Using appium to connect mobile, open Message app & get OTP
+		* Buy service from 3rd party
